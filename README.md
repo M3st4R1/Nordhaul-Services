@@ -1,3 +1,3 @@
-# odin-landing page
+# Nordhaul-Services page
 
 In this project i want to learn how to make a landing page using flex boxes.
