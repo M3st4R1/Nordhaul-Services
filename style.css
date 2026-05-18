@@ -6,15 +6,19 @@ body {
     flex-direction: column;
     background-color: #FFFCFF;
 }
+
 p, a{
     font-family: inter, sans-serif;
 }
+
 h1, h2{
     font-family: Barlow Condensed, sans-serif;
 }
+
 .header, .top, a, .rights{
     color: #FFFCFF;
     text-decoration: none;
+    text-shadow: 2px 2px 5px #2c2d31ab;
 }
 
 .header, .content, .footer, .top, .middle1, .middle-equipment, .bottom, .contact, .middle2{
@@ -93,6 +97,7 @@ a{
     height: 250px;
     overflow: hidden;
     border-radius: 5px;
+    box-shadow: 10px 10px 5px #2c2d3118;
 }
 
 /**image scalings for equipment photoes */
@@ -136,12 +141,14 @@ a{
 
 .quote1{
     color: #FFFCFF;
+    text-shadow: 2px 2px 5px #2c2d31ab;
     font-style: italic;
     font-size: 42px;
     margin: 0px;
     max-width: 700px;
     text-align: left;
 }
+
 .quote2{
     color: #FFFCFF;
     font-size: 24px;
@@ -158,6 +165,7 @@ a{
 
 .contact {
     background-color: #454851;
+    box-shadow: 10px 10px 5px #2c2d3118;
     color: #FFFCFF;
     align-items: center;
     justify-content: space-around;
@@ -184,6 +192,7 @@ a{
     height: 400px;
     overflow: hidden;
     border-radius: 5px;
+    box-shadow: 10px 10px 5px #2c2d31ab;
 }
 
 .image-1 {
@@ -203,6 +212,7 @@ button {
 
     background-color: #FFFCFF;
     color: #454851;
+    box-shadow: 2px 2px 5px #2c2d31ab;
 
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 18px;
